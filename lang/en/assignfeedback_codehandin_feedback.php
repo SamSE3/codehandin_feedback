@@ -21,7 +21,7 @@
  * @copyright 2014 Samuel Deane
  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
-$string['codehandin'] = 'Codehandin Feedback';
+$string['codehandin_feedback'] = 'Codehandin Feedback';
 $string['pluginname'] = 'Codehandin Feedback';
 $string['pluginnameplural'] = 'Codehandin Feedbacks';
 $string['batchoperationconfirmuploadfiles'] = 'Upload one or more feedback files for all selected users?';

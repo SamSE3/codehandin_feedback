@@ -27,7 +27,7 @@
  * @param int $oldversion
  * @return bool
  */
-function xmldb_assignfeedback_codehandin_upgrade($oldversion) {
+function xmldb_assignfeedback_codehandin_feedback_upgrade($oldversion) {
     // Do the upgrades.
     // Moodle v2.3.0 release upgrade line.
     // Put any upgrade step following this.

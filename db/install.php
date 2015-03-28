@@ -31,18 +31,18 @@ defined('MOODLE_INTERNAL') || die();
  *
  * @return bool
  */
-function xmldb_assignfeedback_codehandin_install() {
+function xmldb_assignfeedback_codehandin_feedback_install() {
     global $CFG;
 
     require_once($CFG->dirroot . '/mod/assign/adminlib.php');
 
     // Set the correct initial order for the plugins.
-    $pluginmanager = new assign_plugin_manager('assignfeedback_codehandin');
-    $pluginmanager->move_plugin('codehandin', 'down');
-    $pluginmanager->move_plugin('codehandin', 'down');
-    $pluginmanager->move_plugin('codehandin', 'down');
-    $pluginmanager->move_plugin('codehandin', 'down');
-    $pluginmanager->move_plugin('codehandin', 'down');
+    $pluginmanager = new assign_plugin_manager('assignfeedback_codehandin_feedback');
+    $pluginmanager->move_plugin('codehandin_feedback', 'down');
+    $pluginmanager->move_plugin('codehandin_feedback', 'down');
+    $pluginmanager->move_plugin('codehandin_feedback', 'down');
+    $pluginmanager->move_plugin('codehandin_feedback', 'down');
+    $pluginmanager->move_plugin('codehandin_feedback', 'down');
 
     return true;
 }

@@ -40,7 +40,7 @@ define('ASSIGNFEEDBACK_CHIF_FILEAREA', 'assignfeedback_codehandin');
  * @copyright 2012 NetSpot {@link http://www.netspot.com.au}
  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
-class assign_feedback_codehandin extends assign_feedback_plugin {
+class assign_feedback_codehandin_feedback extends assign_feedback_plugin {
 
     
     
@@ -50,7 +50,7 @@ class assign_feedback_codehandin extends assign_feedback_plugin {
      * @return string
      */
     public function get_name() {
-        return get_string('codehandin', 'assignfeedback_codehandin');
+        return get_string('codehandin_feedback', 'assignfeedback_codehandin_feedback');
     }
 
 //    /**
