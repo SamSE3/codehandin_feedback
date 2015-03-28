@@ -22,7 +22,8 @@
  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 $string['codehandin'] = 'Codehandin Feedback';
-
+$string['pluginname'] = 'Codehandin Feedback';
+$string['pluginnameplural'] = 'Codehandin Feedbacks';
 $string['batchoperationconfirmuploadfiles'] = 'Upload one or more feedback files for all selected users?';
 //$string['batchuploadfiles'] = 'Upload feedback files for multiple users';
 //$string['batchuploadfilesforusers'] = 'Send feedback files to {$a} selected user(s).';
@@ -31,7 +32,7 @@ $string['batchoperationconfirmuploadfiles'] = 'Upload one or more feedback files
 //$string['countfiles'] = '{$a} files';
 //$string['default'] = 'Enabled by default';
 //$string['default_help'] = 'If set, this feedback method will be enabled by default for all new assignments.';
-$string['enabled'] = 'codehandin feedback';
+$string['enabled'] = 'enable the codehandin feedback plugin';
 $string['enabled_help'] = 'If enabled, the teacher will be able to automate the grading of codehandin assignments and supply a ??? mark';
 //$string['feedbackzip'] = 'Zip file with feedback files';
 //$string['feedbackfileadded'] = 'New feedback file "{$a->filename}" for student "{$a->student}"';
@@ -46,7 +47,6 @@ $string['enabled_help'] = 'If enabled, the teacher will be able to automate the 
 //$string['maximumsize'] = 'Maximum file size';
 //$string['moreusers'] = '{$a} more...';
 //$string['nochanges'] = 'No changes';
-$string['pluginname'] = 'Codehandin Feedback plugin';
 $string['uploadfiles'] = 'Send feedback files';
 //$string['uploadzip'] = 'Upload multiple feedback files in a zip';
 //$string['uploadzipsummary'] = 'Feedback files imported from a zip';

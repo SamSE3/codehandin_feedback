@@ -1,4 +1,5 @@
 <?php
+
 // This file is part of Moodle - http://moodle.org/
 //
 // Moodle is free software: you can redistribute it and/or modify
@@ -21,10 +22,11 @@
  * @copyright 2012 NetSpot {@link http://www.netspot.com.au}
  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
-
 defined('MOODLE_INTERNAL') || die();
 
-$plugin->version   = 2014051200;
-$plugin->requires  = 2014050800;
+$plugin->version = 2015030100;      // If version == 0 then module will not be installed
+$plugin->requires = 2012031900;      // Requires this Moodle version
+$plugin->cron = 0;               // Period for cron to check this module (secs)
 $plugin->component = 'assignfeedback_codehandin';
+$plugin->maturity = MATURITY_ALPHA;  //matuirty is alpha ... see http://docs.moodle.org/dev/version.php
 
